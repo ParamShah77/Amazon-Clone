@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.nav-logo{
+    height: 80px;
+    width: 150px;
+}
+
+.logo{
+    background-image: url("./amazon_logo.png");
+    background-size: cover;
+    height: 80px;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+/* 
+this is for that when we hover over the different boxes on navbar then we are seeeing that white transparent border which is separating the boxes on the navbar */
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px  solid white;
+}
+
+/* box2 */
+
+.adressnote{
+    color:#CCCCCC;
+    font-size: 0.8rem;
+    margin-left: 14px;
+    cursor: pointer;
+   
+}
+
+.adress-loc{
+    font-size: 0.99rem;
+    margin-left: 3px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.address-icon{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* searchbox */
+
+.nav-search{
+    display: flex;
+    background-color: rgba(255, 183, 0, 0.896);
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.nav-search:hover{
+    border: 3px solid orange;
+}
+.select{
+    background-color: #E6E6E6;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.input{
+    width:100%;
+    border:none;
+    font-size: 1rem;
+}
+
+.serach-icon{
+    width:45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: rgba(223, 178, 62, 0.896);
+    color: #0F1111;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+/* language */
+.nav-lang{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 5px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.flag{
+    background-size: cover;
+    background-position: center;
+    background-image: url("./indiaflag.png");
+    width: 30px;
+    height: 20px;
+}
+.lang{
+    background-color: transparent;
+    color: white;
+    border: solid transparent;
+    cursor: pointer;
+}
+
+.nav-signin{
+    align-items: center;
+    cursor: pointer;
+}
+
+.signin{
+    font-size: 0.8rem;
+    color: white;
+}
+
+.account{
+    font-size: 0.99rem;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-return{
+    align-items: center;
+    cursor: pointer;
+}
+
+.return{
+    font-size: 0.85rem;
+    color: white;
+}
+
+.order{
+    font-size: 0.99rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-cart{
+    display: flex;
+    cursor: pointer;
+}
+
+.carticon{
+    font-size: 35px;
+}
+
+.cart{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+
+/* panel */
+
+.panel{
+    display: flex;
+    background-color: #0d3053;
+    color: white;
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-All{
+    font-size: 1.15rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 12px;
+    cursor:pointer;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-size:0.95rem;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+
+/* herosection */
+
+.hero-section{
+    background-size: cover;
+    background-image: url("./heroimage.png");
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    }
+
+.heromsg{
+    background-color: white;
+    color: #0F1111;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 88%;
+    font-size: 0.85rem;
+    margin-bottom: 30px;
+}
+
+.heromsg a{
+    color: rgba(46, 147, 194, 0.89);
+    cursor: pointer;
+}
+
+/* shop */
+
+.shopping{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(221, 221, 221);
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.boximg{
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.box-content p{
+    color:  rgba(46, 147, 194, 0.89);
+    cursor: pointer;
+}
+
+.box-content p:hover{
+    text-decoration: underline;
+}
+
+.box-content h2{
+    cursor: pointer;
+}
+
+.box-content h2:hover{
+    text-decoration: underline;
+}
+
+/* Footer */
+
+footer{
+    margin-top: 15px;
+}
+
+.foot1{
+    display: flex;
+    background-color: #0d3053;
+    color: white;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.foot1 p{
+    cursor: pointer;
+}
+
+.foot2{
+    background-color: #222f3d;
+    color: white;
+    display:flex;
+    align-content: space-evenly;
+    height: 400px;
+    justify-content: space-evenly;
+
+}
+
+ul a{
+    display: block;
+    color: rgb(207, 201, 201);
+    margin: 10px;
+    cursor: pointer;
+}
+
+ul a:hover{
+    text-decoration: underline;
+}
+ul p{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    margin-top: 35px;
+    margin-left: 8px;
+}
+
+.foot3{
+    background-color: #222f3d;
+    height: 100px;
+    border-top: 0.3px solid rgb(196, 196, 196);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footlogo{
+    background-image: url("./amazon_logo.png");
+    background-size: cover;
+    height: 90px;
+    width: 180px;
+    cursor: pointer;
+}
+
+.foot-contact{
+    background-color:   #0F1111;
+    color: white;
+    height: 80px;
+    font-size: 0.80rem;     
+}
+
+.footconditions{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-copyright{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footconditions a{
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.footconditions a:hover{
+    text-decoration: underline;
+}
